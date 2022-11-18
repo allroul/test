@@ -1,5 +1,5 @@
 {
-  "name": "ImageGridMotionEffect",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/codrops/ImageGridMotionEffect.git"
+    "url": "git://github.com/allroul/test.git"
   },
   "keywords": [],
   "author": "Codrops",
   "license": "MIT",
   "homepage": "[HOMEPAGE]",
-  "bugs": {
-    "url": "https://github.com/codrops/ImageGridMotionEffect/issues"
-  },
   "dependencies": {
     "gsap": "^3.3.1",
     "imagesloaded": "^4.1.4",
