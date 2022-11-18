@@ -47,28 +47,6 @@
         </div>
       </div>
     </main>
-    <div class="cursor" style="z-index: 999">
-      <div class="cursor__ball cursor__ball--big">
-        <svg height="30" width="30">
-          <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
-        </svg>
-      </div>
-
-      <div class="cursor__ball cursor__ball--small">
-        <svg height="10" width="10">
-          <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
-        </svg>
-      </div>
-    </div>
-
-    <svg style="position: absolute; width: 0; height: 0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-sprite">
-      <defs>
-        <filter id="filter">
-          <feTurbulence type="fractalNoise" baseFrequency="0.000001 0.000001" numOctaves="1" result="warp" seed="1"></feTurbulence>
-          <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp"></feDisplacementMap>
-        </filter>
-      </defs>
-    </svg>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="demo1.151408fb.js"></script>
